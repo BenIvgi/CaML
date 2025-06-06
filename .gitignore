@@ -1,52 +1,46 @@
-# Prerequisites
-*.d
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Build output
+/build/
+/CMakeFiles/
+/cmake-build-*/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# CMake generated files
+Makefile
+CMakeCache.txt
+compile_commands.json
+*.cmake
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
+# Executables and object files
 *.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
+*.o
+*.obj
+*.exe
+*.a
+*.lib
+*.dll
 *.pdb
+*.ilk
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Debug and core dumps
+*.log
+*.dbg
+*.dSYM/
+core.*
+
+# Temporary/backup files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+*.code-workspace
+
+# Unit test results (optional)
+test-results/
+*.gcda
+*.gcno
+*.gcov
